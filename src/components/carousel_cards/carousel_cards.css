@@ -1,0 +1,49 @@
+.carrousel_div{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.carousel_cards{
+    height: 400px;
+    width: 80%;
+    display: flex;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+.scroll_to{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
+.scroll_to svg{
+    width: 30px;
+    height: 30px;
+    color: #662c73;
+}
+.scroll_to svg:active{
+    color: #c4426e;
+}
+.carousel_cards::-webkit-scrollbar{
+    /* background-color: #1313136b; */
+    background-color: none;
+    border-radius: 10px;
+    height: 5px;
+  }
+  .carousel_cards::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: #642B73;
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+    background: linear-gradient(to right, #C6426E, #642B73);
+  }
+  
+
+@media (min-width: 992px) {
+    .carousel_cards{
+        width: 70%;
+    }
+    .scroll_to{
+        padding-left: 30px;
+    }
+}

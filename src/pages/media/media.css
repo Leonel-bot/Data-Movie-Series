@@ -1,0 +1,26 @@
+.div_results{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px
+}
+.results{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.results div{
+    width: 135px;    
+
+}
+@media (min-width: 992px){
+    .results{
+        width: 70%;
+        justify-content: left;
+    }
+    .results div{
+        width: 140px;
+    }
+}

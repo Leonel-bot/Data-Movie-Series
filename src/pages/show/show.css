@@ -1,0 +1,107 @@
+.show{
+    color: white;
+}
+.show_poster{
+    background-position: top;
+}
+.show_filter_color{
+    background: linear-gradient( 0deg , rgb(0, 0, 0) 70%, rgba(255,255,255,0) 90%, rgba(255,255,255,0) 100%);
+}
+.show_content{
+    display: grid;
+    padding: 15px;
+}
+.show_space{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show_space svg{
+    font-size: 150px;
+    color: #ffffff6e;
+}
+.show_space svg:hover{
+    color: #ffffff94;
+}
+#original_title{
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom:10px;
+}
+#time_stamp{
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 5px;
+    margin: 0;
+    color: rgb(138, 138, 138);
+}
+#genres{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
+    padding: 0;
+}
+#genres li{
+    margin-right: 10px;
+}
+#seasons{
+    text-align: left;
+    font-size: 15px;
+    margin: 0;
+    color: rgb(138, 138, 138);
+}
+#overview p{
+    font-size: 18px;
+    color: white;
+    text-align: left;
+}
+
+@media (min-width: 992px){
+    .show_filter_color{
+        background: linear-gradient( 90deg , rgb(0, 0, 0) 60%, rgba(255,255,255,0) 90%, rgba(255,255,255,0) 100%);
+    }
+    .show_space svg{
+        position: absolute;
+        left: 70%;
+        top: 40%;
+    }
+    .show_space svg{
+        font-size: 200px;
+    }
+    .show_poster {
+        background-position-x: 300px;
+        background-position-y: center;
+        background-size: cover;
+    }
+    .show_content{
+        display: flex;
+        width: 40%;
+        height: 100vh;
+        overflow-x: hidden;
+        margin-bottom: 20px;
+    }
+    .show_content::-webkit-scrollbar{
+        background-color: #0202021c;
+        border-radius: 10px;
+        width: 5px;
+    }
+    .show_content::-webkit-scrollbar-thumb{
+        border-radius: 5px;
+        background: none;
+    }
+    #original_title{
+        text-align: left;
+        font-size: 40px;
+    }
+    #time_stamp{
+        text-align: left;
+    }
+    #genres{
+        justify-content: left;
+    }
+    
+}

@@ -1,0 +1,14 @@
+.vote_average{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    text-align: initial;
+    font-size: 20px;
+    font-weight: 600;
+    color: #47d74b;
+}
+.vote_average svg{
+    margin-right: 10px;
+}
