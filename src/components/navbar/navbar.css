@@ -30,7 +30,7 @@
     outline: none;
 }
 .navbar_content ul{
-    margin: 0;
+    padding: 0;
     padding-top: 15px;
     list-style: none;
     display: none;
@@ -81,6 +81,7 @@
     }
     .list_genres{
         margin-top: 20px;
+        width: 170px;
         background: black;
         border-radius: 10px;
     }
