@@ -30,6 +30,7 @@
     outline: none;
 }
 .navbar_content ul{
+    margin: 0;
     padding: 0;
     padding-top: 15px;
     list-style: none;
